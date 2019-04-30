@@ -1,10 +1,8 @@
-
-#' Title
+#' @title The GC Content
+#' @name GCcontent
+#' @param dnastr - the dna string
 #'
-#' @param dnastr
-#' @param pattern
-#'
-#' @return
+#' @return A fraction representing the (G+C) portion of the dnastr
 #' @export
 #'
 #' @examples

@@ -1,10 +1,9 @@
-
-#' Title
+#' @title Positions of the Pattern in dna String
+#' @name patternpositions
+#' @param dnastr - a string containing the dna sequence to be analyzed
+#' @param pattern - pattern to look for
 #'
-#' @param dnastr
-#' @param pattern
-#'
-#' @return
+#' @return a vector of the positions of the occurrences of the pattern in the dnastr
 #' @export
 #'
 #' @examples

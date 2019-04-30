@@ -1,12 +1,13 @@
-# test-simpledna
-#
-# This is a test script file for testing the functions of the simpledna R package.
-# which prints 'Hello, world!'.
-#
-#
-# It uses a test dataset den-1.fasta.txt which is the complete genome of Dengue virus 1
-# in fasta format
-#
+#' test-simpledna
+#'
+#' This is a test script file for testing the functions of the simpledna R package.
+#'
+#'
+#' It uses a test dataset den-1.fasta.txt which is the complete genome of Dengue virus 1
+#' in fasta format
+#' @param  None
+#' @return None
+#' @export
 
 testsimpledna <- function() {
 
