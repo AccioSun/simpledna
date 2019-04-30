@@ -1,11 +1,16 @@
 Package: simpledna
 Type: Package
-Title: Provides Functions For Analysis of Simple DNA
+Title: Provides Functions For Analysis of Simple DNA Strings
 Version: 0.2.0
-Author: Surya Dhulipala
-Maintainer: Surya Dhulipala <sdhulipala@health.usf.edu>
-Description: Provides functions to analyze relatively simple DNA snippets. The functions expect the DNA sequence to be passed as a string after downloading from various sources. Additional functions can be added to this package to automatically download genome sequences from sources such as NCBI. Based on the computational ideas presented in the Coursera course, "Biology Meets Programming" by University of California, San Diego
+Author@R: "Surya Dhulipala <sdhulipala@health.usf.edu> [aut, cre]"
+Description: Provides functions to analyze relatively simple DNA snippets.
+    These functions allow analysis of nucleotide frequency and patterns for
+    DNA sequences. The functions expect the DNA sequence to be passed as a 
+    string after downloading from various sources. Based on the computational
+    ideas presented in the Coursera course,"Biology Meets Programming" by 
+    University of California, San Diego.
 License: MIT
+Depends: R (>= 3.1.2)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
