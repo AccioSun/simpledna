@@ -2,7 +2,9 @@
 
 export(GCcontent)
 export(freqmap)
+export(hamming)
 export(mostfreq)
+export(nearmatches)
 export(patterncount)
 export(patternpositions)
 export(testsimpledna)

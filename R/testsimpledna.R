@@ -35,4 +35,12 @@ testsimpledna <- function() {
   # mostfreq - for a given length of k, what is the most frequent k-mer ?
   mostfreq(dnastr,3)
   mostfreq(dnastr,4)
+
+  # Hamming Distance
+  hamming("ADTCD", "ADTDD")
+  hamming("AGCTD", "ACGTA")
+
+  # Near Matches
+  nearmatches("ATCACC", dnastr,2)
+
 }
