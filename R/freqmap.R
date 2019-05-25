@@ -1,18 +1,20 @@
-
-#' Title
+#' @title Get Frequency Count of kmers
 #'
-#' @param dnastr
-#' @param pattern
+#' @param dnastr - dna string
+#' @param k - length of the k-mer
 #'
-#' @return
+#' @return A hash map of k-mers and their counts
 #' @export
 #'
-#' @examples
+#' @name freqmap
 #'
-#'
+#
+
 library("pracma")
 library('hash')
+
 freqmap <- function(dnastr, k) {
+
     dnalen = nchar(dnastr)
     if (k > dnalen) {
       stop("k exceeds the length of dnastr")

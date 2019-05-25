@@ -1,10 +1,9 @@
-
-#' Title
-#'
+#' @title Count of the Given Pattern
+#' @name patterncount
 #' @param dnastr - a string containing the dna sequence to be analyzed
-#' @param pattern
+#' @param pattern - pattern to look for
 #'
-#' @return
+#' @return a number showing the count of the occurrences of the pattern
 #' @export
 #'
 #' @examples

@@ -1,12 +1,13 @@
-# test-simpledna
-#
-# This is a test script file for testing the functions of the simpledna R package.
-# which prints 'Hello, world!'.
-#
-#
-# It uses a test dataset den-1.fasta.txt which is the complete genome of Dengue virus 1
-# in fasta format
-#
+#' test-simpledna
+#'
+#' This is a test script file for testing the functions of the simpledna R package.
+#'
+#'
+#' It uses a test dataset den-1.fasta.txt which is the complete genome of Dengue virus 1
+#' in fasta format
+#' @param  None
+#' @return None
+#' @export
 
 testsimpledna <- function() {
 
@@ -34,4 +35,12 @@ testsimpledna <- function() {
   # mostfreq - for a given length of k, what is the most frequent k-mer ?
   mostfreq(dnastr,3)
   mostfreq(dnastr,4)
+
+  # Hamming Distance
+  hamming("ADTCD", "ADTDD")
+  hamming("AGCTD", "ACGTA")
+
+  # Near Matches
+  nearmatches("ATCACC", dnastr,2)
+
 }
