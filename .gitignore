@@ -1,2 +1,3 @@
 .DS_Store
 .RData .Rbuildignore .Rhistory .Rproj.user
+.Rproj.user
